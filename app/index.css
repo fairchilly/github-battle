@@ -46,7 +46,10 @@ li {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+}
+
+.space-around {
+  justify-content: space-around;
 }
 
 .header-lg {
