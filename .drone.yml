@@ -7,7 +7,7 @@ steps:
     commands:
       - cd /var/www/projects/github-battle
       - git pull
-  - name: 'docker compose'
+  - name: 'docker'
     commands:
       - cd /var/www/projects/github-battle
       - docker-compose up -d --build
